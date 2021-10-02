@@ -176,6 +176,9 @@ export class Board extends React.Component{
                     </div>
                 </div>
                 <TextContainer users={this.state.users}/>
+                <footer className="footer">
+                    <a href="https://github.com/lakshayman/Multiplayertictactoe/tree/master" target="_blank">Repository Link</a>
+                </footer>
             </>
         )
     }
